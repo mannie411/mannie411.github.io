@@ -2609,3 +2609,21 @@ input, select, textarea {
 				}
 
 	}
+	.margin-b-4 {
+		margin-bottom: 4px!important;
+	}
+
+	.row-space-2 {
+		margin-right: -2px;
+		margin-left: -2px;
+	}
+
+	.row-space-2>[class*=col-] {
+		padding-left: 2px;
+		padding-right: 2px;
+	}
+
+	.service {
+		background: #fff;
+		padding: 30px;
+	}
