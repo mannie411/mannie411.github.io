@@ -3,9 +3,13 @@ import { ProjectPane, SideBar } from "../components/project/";
 
 const Projects = () => {
   return (
-    <div>
-      <SideBar />
-      <ProjectPane />
+    <div className="projects">
+      <div className="sidebar">
+        <SideBar />
+      </div>
+      <div className="layout">
+        <ProjectPane />
+      </div>
     </div>
   );
 };

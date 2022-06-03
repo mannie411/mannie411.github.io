@@ -1,5 +1,5 @@
 import React from "react";
-import { Link } from "react-router-dom";
+
 import { github, linkedin, twitter } from "./Icons";
 
 const Footer = () => {
@@ -17,31 +17,31 @@ const Footer = () => {
           <h6>find me on:</h6>
         </div>
         <div className="link">
-          <Link
-            to="https://www.twitter.com/_mannie411"
+          <a
+            href="https://www.twitter.com/_mannie411"
             target="_blank"
             rel="noopener noreferrer"
           >
             {twitter}
-          </Link>
+          </a>
         </div>
         <div className="link">
-          <Link
-            to="https://www.facebook.com/mannie411"
+          <a
+            href="https://www.linkedin.com/in/mannie411"
             target="_blank"
             rel="noopener noreferrer"
           >
             {linkedin}
-          </Link>
+          </a>
         </div>
         <div className="link">
-          <Link
-            to="https://www.facebook.com/mannie411"
+          <a
+            href="https://www.github.com/mannie411"
             target="_blank"
             rel="noopener noreferrer"
           >
             {github}
-          </Link>
+          </a>
         </div>
       </div>
       <div className="date">

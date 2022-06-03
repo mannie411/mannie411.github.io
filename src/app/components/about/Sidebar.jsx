@@ -17,7 +17,7 @@ import {
 
 const Sidebar = () => {
   return (
-    <div className="sidebar">
+    <>
       <div className="tab icons">
         <ul className="nav">
           <li className="link">{terminal}</li>
@@ -98,7 +98,7 @@ const Sidebar = () => {
           </li>
         </ul>
       </div>
-    </div>
+    </>
   );
 };
 

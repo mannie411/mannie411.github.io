@@ -1,12 +1,15 @@
 import React from "react";
-import { Sidebar, SnippetPane, TabPane } from "../components/about";
+import { Sidebar, AboutPane } from "../components/about";
 
 const About = () => {
   return (
     <div className="about">
-      <Sidebar />
-      <TabPane />
-      <SnippetPane />
+      <div className="sidebar">
+        <Sidebar />
+      </div>
+      <div className="layout">
+        <AboutPane />
+      </div>
     </div>
   );
 };

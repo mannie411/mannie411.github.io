@@ -6,13 +6,13 @@ const Home = () => {
   return (
     <div className="home">
       <div className="intro">
-        <div className="top">
-          <h3>Hello World! I am</h3>
-          <h1>Emmanuel Imoh</h1>
-          <h2>&gt; A Full-Stack Developer</h2>
-        </div>
-        <div className="bottom">
-          <p>
+        <div className="container">
+          <div className="top">
+            <h3>Hello World! I am,</h3>
+            <h1>Emmanuel Imoh</h1>
+            <h2>&gt; A Full-Stack Developer</h2>
+          </div>
+          <div className="bottom">
             <pre>// complete the game to continue</pre>
             <br />
             <pre>// you can also see it on my Github page</pre>
@@ -23,14 +23,14 @@ const Home = () => {
               <span className="v-equals">= </span>
               <span className="v-value">“https://github.com/example/url”</span>
             </pre>
-          </p>
+          </div>
         </div>
       </div>
-      <div className="game">
+      <div className="game-canvas">
         <div className="gradient-1"></div>
         <div className="gradient-2"></div>
-        <div className="container">
-          <div className="canvas"></div>
+        <div className="canvas">
+          <div className="game"></div>
         </div>
       </div>
     </div>
